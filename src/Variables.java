@@ -1,19 +1,16 @@
 public class Variables {
+    public static void main(String[] args) {
+        System.out.println("Hello world! Variables");
+
+        Variables one = new Variables();
+        Variables.displayCount();
+    }
 
     //INSTANCE VARIABLES
     String myinstancevariable = "MY INSTANCE VARIABLE";
 
     //STATIC VARIABLE
     static int mystaticvariable;
-
-    public static void main(String[] args) {
-        System.out.println("Hello world! Variables");
-
-        Variables one = new Variables();
-        Variables.displayCount();
-
-
-    }
 
     public Variables(){
         mystaticvariable++;

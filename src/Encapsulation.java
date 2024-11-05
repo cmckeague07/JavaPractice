@@ -1,11 +1,10 @@
 public class Encapsulation {
     public static void main(String[] args) {
+        System.out.println("Encapsulation");
         BankAccount bank1 = new BankAccount("Conor McKeague", 250000);
         bank1.deposit(10000);
         bank1.withdraw(50000);
         bank1.getBalance();
-
-
     }
 
 }
@@ -22,6 +21,7 @@ class BankAccount {
 
     // Getter for balance
     public double getBalance() {
+        System.out.println("Balance + "  + balance);
         return balance;
     }
 
